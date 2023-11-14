@@ -1,0 +1,112 @@
+.app {
+    &__search {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    &__input {
+        padding: 23px 15px;
+        color: #FFF;
+        font-feature-settings: 'cpsp' on;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 400;
+        background: transparent;
+        border: 2px solid rgb(163, 161, 161);
+        border-radius: 5px 0 0 5px;
+        width: 430px;
+    }
+    &__submit {
+        width: 140px;
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 23px;
+        font-weight: 700;
+        background: rgb(163, 161, 161);
+        padding: 26px 20px;
+        border: 0;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 1860px) {
+    .app {
+        &__input {
+            width: 340px;
+        }
+    }
+}
+
+@media (max-width: 1600px) {
+    .app {
+        &__input {
+            font-size: 20px;
+            padding: 16px 10px;
+        }
+        &__submit {
+            font-size: 20px;
+            padding: 18px 15px;
+        }
+    }
+}
+
+@media (max-width: 1500px) {
+    .app {
+        &__input {
+            width: 280px;
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .app {
+        &__input {
+            width: 230px;
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .app {
+        &__input {
+            font-size: 16px;
+            padding: 11px 10px;
+        }
+        &__submit {
+            font-size: 18px;
+            padding: 11.7px 15px;
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .app {
+        &__input {
+            width: 180px;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .app {
+        &__input {
+            width: 180px;
+        }
+        &__submit {
+            font-size: 15px;
+            padding: 13.5px 10px;
+            width: 100px;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .app {
+        &__search {
+            justify-content: center;
+            margin-top: 25px;
+        }
+    }
+}
